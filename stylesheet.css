@@ -12,7 +12,6 @@
 html,body {
   height: 100%;
   width: 100%;
-  overflow-x: hidden;
 }
 
 body{
@@ -23,7 +22,7 @@ body{
 
 
 hr{
-  border-width: 0.2rem;
+  border-width: 0.3rem;
   border-top-width: 0;
   border-style: solid;
   border-color: var(--header-text-color);
@@ -67,7 +66,7 @@ p{
 .jumbotron h1{
   text-align: center;
   vertical-align: bottom;
-  font-size: 5vw;
+  font-size: 3vw;
   color: var(--header-text-color);
   text-shadow: 1px 1px var(--header-text-shadow);
 }
@@ -80,14 +79,14 @@ p{
 .proj{
   font-size: 1.5rem;
   margin-left: 5vw;
-  width: 20vw;
+  width: 20%;
   display: inline-block;
 }
 
 .proj-link{
   font-size: 1.5rem;
   margin-left: 30vw;
-  width: 20vw;
+  width: 20%;
   display: inline-block;
 }
 
@@ -95,7 +94,7 @@ p{
   padding-left: 5vw;
   padding-top: 2vw;
   padding-bottom: 5vw;
-  width: 100vw;
+  width: 100%;
 }
 
 
@@ -118,11 +117,12 @@ p{
 
   .proj-img img{
     height: auto;
-    width: 75vw;
+    width: 75%;
   }
 
   .proj-link{
-    margin-left: 20vw;
+    margin-left: 25%;
+    width: 25%;
   }
 }
 
