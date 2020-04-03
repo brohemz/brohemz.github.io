@@ -5,12 +5,16 @@ function addProjects(){
   var addHTML = ""
   for( const proj of projectList ){
     // console.log(proj)
-    addHTML += `<div class='proj'>
-                   ${proj.name}:
-                </div>`
-            +  `<div class='proj-link'>
-                  <a href='${proj.link}'> View on Github </a>
-               </div>`;
+    addHTML += `<div id='proj-box'>
+                  <div class='proj'>
+                    ${proj.name}:
+                  </div>`
+              +  `<div class='proj-link'>
+                    <a href='${proj.link}'> View on Github </a>
+                </div>`;
+    if(proj.thumbnail != null)
+      addHTML += `<div class='proj-img'><img src=${proj.thumbnail} alt='gif - movie-app' /></div>`
+    addHTML += '</div>'
   }
   document.getElementById("projects").innerHTML = addHTML;
  
@@ -27,11 +31,13 @@ function getProjectJson(){
         'name':'plagiarism_checker', 
         'link':'https://github.com/brohemz/Program_Plagiarism_Checker'},
       { 
-        'name':'image_search', 
-        'link':'https://github.com/brohemz/image_search' },
-      { 
         'name':'movies_app', 
-        'link':'https://github.com/brohemz/movies-app' 
+        'link':'https://github.com/brohemz/movies-app',
+        'thumbnail': 'https://github.com/brohemz/brohemz.github.io/blob/gh-pages/resources/gif_movies-app.gif?raw=true'
+      }, 
+      { 
+        'name':'image_search', 
+        'link':'https://github.com/brohemz/image_search',
       },
     ]
   }
@@ -43,5 +49,5 @@ function addHello(id){
 }
 
 window.onload = () => {
-  console.log("wow")
+  console.log("Status: Window Loaded")
 }
