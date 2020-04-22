@@ -54,6 +54,11 @@ p{
   color: var(--main-text-color);
 }
 
+img{
+  width: 40%;
+  height: 40%;
+}
+
 
 .content {
   flex: 1 0 auto;
@@ -116,12 +121,22 @@ a:hover, a:active{
   display: inline-block;
 }
 
+.proj-desc{
+  font-size: .75em;
+  margin-left: 5vw;
+  margin-top: 2vh;
+  color: black;
+  -webkit-text-stroke-width: 0;
+  text-shadow: none;
+}
+
 .proj-img{
   padding-left: 5vw;
   padding-top: 2vw;
-  padding-bottom: 5vw;
+  padding-bottom: 5vh;
   width: 100%;
 }
+
 
 
 
