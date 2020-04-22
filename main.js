@@ -36,7 +36,7 @@ function getProjectJson(){
       { 
         'name':'carberry-pi',
         'link':'https://github.com/brohemz/carberry-pi',
-        'thumbnail': 'https://raw.githubusercontent.com/brohemz/carberry-pi/master/documentation/resources/gif_carberry-pi.gif',
+        'thumbnail': 'https://raw.githubusercontent.com/brohemz/brohemz.github.io/master/resources/gif_carberry-pi.gif',
         'description': [
           'Undergraduate Research Project: A touchscreen user interface for the car',
           'Interfaces with the OBDII port to read engine information',
