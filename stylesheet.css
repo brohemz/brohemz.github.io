@@ -85,7 +85,7 @@ img{
   text-shadow: 1px 1px var(--header-text-shadow);
 }
 
-#proj-box a:link, a:visited{
+#proj-box a:link, #proj-box a:visited{
   color: var(--main-text-color);
   font-size: 0.8rem;
   font-weight: bold;
@@ -112,7 +112,7 @@ a:hover, a:active{
   opacity: 0;
   moz-transition: height 5s;
   -webkit-transition: height 5s;
-  -o-transition: height 5s;
+  -o-transition: heightk 5s;
   transition: opacity 0.5s ease-out;
 
 }
@@ -177,15 +177,31 @@ a:hover, a:active{
 
 
 #footer{
-  margin-top: 10vh;
+  margin-top: 10%;
   flex-shrink: 0;
-  height: 10vh;
+  min-height: 10vh;
   width: 100%;
   padding-top: 2%;
   padding-bottom: 1%;
   text-align: center;
   color: white;
   background-color: var(--dark-background);
+}
+
+.footer-links img{
+  margin: 1%;
+}
+
+.footer-attributions{
+  color: lightslategray;
+  font-size: 0.75em;
+}
+
+#footer a:link, #footer a:visited{
+  text-decoration: none;
+  -webkit-text-stroke-width: 0;
+  text-shadow: none;
+  color: lightseagreen;
 }
 
 @media only screen and (max-width: 1000px) {
