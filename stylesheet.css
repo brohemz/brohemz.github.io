@@ -209,6 +209,7 @@ a:hover, a:active{
 .footer-attributions{
   color: lightslategray;
   font-size: 0.75em;
+  -webkit-text-stroke-width: 0;
 }
 
 #footer a:link, #footer a:visited{
