@@ -182,15 +182,20 @@ a:hover, a:active{
 
 
 #footer{
-  margin-top: 10%;
+  margin-top: 5%;
   flex-shrink: 0;
   min-height: 10vh;
   width: 100%;
-  padding-top: 2%;
+  padding-top: 1%;
   padding-bottom: 1%;
   text-align: center;
   color: white;
   background-color: var(--dark-background);
+}
+
+.footer-links{
+  margin-top: 1%;
+  margin-bottom: 2%;
 }
 
 .footer-links img{
