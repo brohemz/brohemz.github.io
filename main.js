@@ -76,6 +76,21 @@ function getProjectJson(){
   }
 }
 
+function addAbout(){
+  var addHTML = "";
+
+  addHTML += `<div id="about-box">
+                View my Resume
+                <a href='https://github.com/brohemz/brohemz.github.io/blob/master/resources/resume-ryanmchugh.pdf'>
+                  <img class='about-img' src='https://raw.githubusercontent.com/brohemz/brohemz.github.io/master/resources/thumbnail_resume.png'
+                      alt='thumbnail - resume' />
+                </a>
+              </div>`;
+
+  document.getElementById("about").innerHTML = addHTML;
+  document.getElementById("about-box").className =" loaded";
+}
+
 function addHello(id){
   document.getElementById(id).innerHTML = "HELLO";
   console.log(id)
