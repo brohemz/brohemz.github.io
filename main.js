@@ -22,7 +22,7 @@ function addProjects(){
       </div>`
     }
     if(proj.thumbnail != null)
-      addHTML += `<div class='proj-img'><img src=${proj.thumbnail} alt='gif - movie-app' /></div>`
+      addHTML += `<div class='proj-img'><img src=${proj.thumbnail} alt='gif - ${proj.name}' /></div>`
     
     addHTML += '</div>'
   }
@@ -36,7 +36,7 @@ function getProjectJson(){
       { 
         'name':'carberry-pi',
         'link':'https://github.com/brohemz/carberry-pi',
-        'thumbnail': 'https://raw.githubusercontent.com/brohemz/carberry-pi/master/documentation/resources/dash.png',
+        'thumbnail': 'https://raw.githubusercontent.com/brohemz/carberry-pi/master/documentation/resources/gif_carberry-pi.gif',
         'description': [
           'Undergraduate Research Project: A touchscreen user interface for the car',
           'Interfaces with the OBDII port to read engine information',
@@ -46,7 +46,7 @@ function getProjectJson(){
       { 
         'name':'plagiarism_checker', 
         'link':'https://github.com/brohemz/Program_Plagiarism_Checker',
-        'thumbnail': 'https://raw.githubusercontent.com/brohemz/brohemz.github.io/master/resources/gif_ppc.gif'
+        'thumbnail': 'https://raw.githubusercontent.com/brohemz/brohemz.github.io/master/resources/gif_ppc.gif',
         'description': [
           'Semester-long group project running with an agile-waterfall blend',
           'Highlights suspected areas on each file and provides a percentage (plagiarized) for reference',
