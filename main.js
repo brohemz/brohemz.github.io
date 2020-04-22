@@ -46,6 +46,7 @@ function getProjectJson(){
       { 
         'name':'plagiarism_checker', 
         'link':'https://github.com/brohemz/Program_Plagiarism_Checker',
+        'thumbnail': 'https://raw.githubusercontent.com/brohemz/brohemz.github.io/master/resources/gif_ppc.gif'
         'description': [
           'Semester-long group project running with an agile-waterfall blend',
           'Highlights suspected areas on each file and provides a percentage (plagiarized) for reference',
