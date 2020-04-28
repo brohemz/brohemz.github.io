@@ -27,6 +27,7 @@ function addProjects(){
     addHTML += '</div>'
   }
   document.getElementById("projects").innerHTML = addHTML;
+  document.getElementById('proj-img').style.display = 'block';
  
 }
 

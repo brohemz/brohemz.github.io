@@ -102,7 +102,7 @@ a:hover, a:active{
   moz-transition: height 5s;
   -webkit-transition: height 5s;
   -o-transition: heightk 5s;
-  transition: opacity 0.5s ease-out;
+  transition: opacity 0.5s ease-in;
 
 }
 
@@ -120,8 +120,8 @@ a:hover, a:active{
 }
 
 .about-img{
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 70%;
 }
 
 
@@ -177,6 +177,7 @@ a:hover, a:active{
 
 .proj-img img{
   width: 50vw;
+  height: auto;
 }
 
 
@@ -201,8 +202,8 @@ a:hover, a:active{
 .footer-links img{
   margin-left: 1%;
   margin-right: 1%;
-  height: 3%;
-  width: 3%;
+  height: 3vh;
+  width: 3vw;
   filter: invert(75%) sepia(69%) saturate(1197%) hue-rotate(305deg) brightness(100%) contrast(101%);
 }
 
@@ -221,6 +222,22 @@ a:hover, a:active{
 
 #footer a:hover, #footer a:active{
   opacity: 0.5;
+}
+
+@media only screen and (min-width: 2000px) {
+  :root{
+    font-size: 1vw;
+  }
+
+  .proj-img img{
+    width: 30vw;
+  }
+
+  #about-box a:link, #about-box a:visited{
+    width: 10%;
+    height: 20%;
+  }
+
 }
 
 @media only screen and (max-width: 1000px) {
