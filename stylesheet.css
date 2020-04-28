@@ -199,13 +199,19 @@ a:hover, a:active{
   margin-bottom: 2%;
 }
 
-.footer-links img{
+.footer-links a{
+  height: 3%;
+  width: 3%;
   margin-left: 1%;
   margin-right: 1%;
-  height: 3vh;
-  width: 3vw;
-  filter: invert(75%) sepia(69%) saturate(1197%) hue-rotate(305deg) brightness(100%) contrast(101%);
 }
+
+.footer-links img{
+  filter: invert(75%) sepia(69%) saturate(1197%) hue-rotate(305deg) brightness(100%) contrast(101%);
+  height: 2%;
+  width: 2%;
+}
+
 
 .footer-attributions{
   color: lightslategray;
@@ -238,6 +244,11 @@ a:hover, a:active{
     height: 20%;
   }
 
+  #footer{
+    min-height: 5vh;
+  }
+
+
 }
 
 @media only screen and (max-width: 1000px) {
@@ -249,6 +260,16 @@ a:hover, a:active{
   .proj-link{
     margin-left: 25%;
     width: 25%;
+  }
+
+  .footer-links a{
+    width: 3%;
+    height: 3%;
+  }
+
+  .footer-links img{
+    width: 3vw;
+    height: 3vh;
   }
 }
 
